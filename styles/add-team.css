@@ -1,0 +1,33 @@
+.content-holder{
+    
+}
+.new-team-con{
+    margin: 4vh auto;
+}
+.new-team-icon{
+    margin: 10px auto;
+    height: 20vh;
+    background-image: url("../Images/create-team.svg");
+    background-size: 100% 95%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.new-team-con h4{
+    color: #343a40;
+}
+.new-team-con p{
+    font-size: 14px;
+}
+.new-team-con small{
+    font-size: 12px;
+}
+.add-team-btn {
+    border-radius: 50%;
+    width: 30px;
+    height:auto;
+    font-size: 10px;
+    border: 1px solid transparent;
+}
+.content-holder ::placeholder{
+    font-size: 12px;
+}

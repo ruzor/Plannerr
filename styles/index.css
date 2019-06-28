@@ -1,0 +1,55 @@
+.landing-con{
+    min-height: 85vh;
+}
+.auth-btn-group{
+}
+.index-login-btn{
+    margin-right: 8vw;
+}
+.image-side{
+    height: 85vh;
+}
+.image-con{
+    height: 80vh;
+    margin: auto;
+    background-image: url("../Images/landing.svg");
+    /* background-size:100% 70%; */
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.landing-words{
+    min-height:50vh;
+}
+.landing-words h1{
+    padding-top: 20vh;
+}
+.landing-words p{
+    font-size: 20px;
+}
+#get-started-email{
+    border: 1px solid #343a40;
+    height: 6.5vh;
+}
+#get-started-email:focus{
+    box-shadow: none;
+}
+@media screen and (max-width: 992px){
+    .landing-words{
+        min-height: 20vh;
+    }
+    .landing-words h1{
+        padding-top: 0px;
+        text-align: left;
+        font-size: 45px;
+    }
+    .landing-words p{
+        text-align: left;
+    }
+    .image-side{
+        min-height: 50vh;
+    }
+    .index-login-btn{
+        margin-right: 0px;
+    }
+}

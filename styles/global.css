@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+    width: 100vw;
+}
+.logo-btn{
+    color: #343a40;
+    background-color: white;
+    border: 3px solid #343a40;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+.btn-brand{
+    color:white;
+    background-color: #343a40;
+    border: 3px solid #343a40;
+}
+.btn-outline-brand {
+    color: #343a40;
+    background-color: white;
+    border: 3px solid #343a40;
+}
+.con-input {
+    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 0;
+}
+.con-input span {
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900;
+    color: rgb(32, 30, 30);
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    cursor: pointer;
+}
+.brand-input {
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid #343a40;
+    outline: none;
+    box-shadow: none;
+    height: 50px;
+    border-radius:0;
+}
+.brand-input:focus{
+    box-shadow: none;
+    color: deepskyblue;
+    border-bottom-color: deepskyblue;
+    text-decoration: none;
+    padding-bottom: 0;
+    line-height: 20px;
+}
+.brand-input.invalid {
+    color: red;
+    border-bottom-color: red;
+}
+.brand-input:focus ~ .floating-label, 
+.conInput > div:focus-within ~ .floating-label {
+    color: deepskyblue;
+}
+.floating-label {
+  position: absolute;
+  pointer-events: none;
+  left: 15px;
+  top:25px;
+  transition: 0.2s ease all;
+}
+input:focus ~ .floating-label,
+input:not(:focus):valid ~ .floating-label, 
+.conInput > div:focus-within ~ .floating-label, 
+.conInput > div.valid ~ .floating-label  {
+  top: 0px;
+  bottom: 10px;
+  font-size: 11px;
+  opacity: 1;
+}
+[data-id].invalid {
+    color: red !important;
+}
+.text-grey{
+    color: grey;
+}
+.float-right{
+    float: right;
+}
+.user-image-nav{
+    width: 40px;
+    height: auto;
+    border-radius: 50%;
+}

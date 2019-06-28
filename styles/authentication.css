@@ -1,0 +1,48 @@
+.authentication-body {
+    overflow: hidden;
+}
+
+.signup-container {
+    margin: auto;
+    min-height: 85vh;
+    margin-top: 3vh;
+}
+
+.signin-container {
+    margin: auto;
+    min-height: 85vh;
+    margin-top: 15vh;
+}
+
+/* input:focus ~ .floating-label, input:not(:placeholder-shown) ~ .floating-label{
+  top: 0%;
+  bottom: 10px;
+  font-size: 11px;
+  opacity: 1;
+} */
+
+.conInput {
+    position: relative;
+    display: flex;
+}
+
+/* .brand-input {
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #343a40;
+    outline: none;
+    box-shadow: none;
+    height: 50px;
+    padding-bottom: 3px;
+} */
+
+/* .floating-label, input:placeholder-shown ~ .floating-label {
+    position: absolute;
+    font-size: 16px;
+    pointer-events: none;
+    left: 15px;
+    top: 25%;
+    transition: 0.2s ease all;
+} */
+
+

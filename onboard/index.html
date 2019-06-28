@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/index.css">
+    <title>plannerr</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="../js/welcome/base.js" defer></script>
+    <script type="module" src="../js/welcome/index.js" defer></script>
+</head>
+
+<body class="col-12 px-0 container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light border border-top-0 mx-0 col-12 row">
+        <button onclick="location.href='index.html'" class="btn btn-default logo-btn offset-1">
+            plannerr
+        </button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse row col-10" id="navbarSupportedContent">
+            <form class="form-inline auth-btn-group my-2 my-lg-0 col-12">
+                <button onclick="location.href='signup.html'" class="index-signup-btn ml-auto btn btn-brand my-2 my-sm-0 mx-1 col-5 col-lg-2" type="button">Sign
+                    Up</button>
+                <button onclick="location.href='signin.html'" class="index-login-btn btn btn-outline-brand my-2 my-sm-0 col-5 col-lg-2"
+                    type="button">Log
+                    In</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="container-fluid landing-con">
+        <div class="row col-12 col-lg-11 mx-auto">
+            <div class="col-12 offset-0 col-sm-10 offset-sm-1 offset-lg-0 col-lg-6 image-side">
+                <div class="col-10 mt-5 image-con">
+
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="col-12 landing-words text-center">
+                    <h1 class="">Working Together Beautifully</h1>
+                    <p>Our software rescues teams from the everyday chaotic,
+                        freeing them to achieve more</p>
+                </div>
+                <div class="col-12 get-started mt-4 mb-5">
+                    <form class="form-inline col-12 row form-get-started">
+                        <div class="form-group px-1 col-12 col-md-6 col-lg-8">
+                            <input type="email" name="email" class="form-control col-12" id="get-started-email"
+                                placeholder="Email address here">
+                        </div>
+                        <button type="submit" class="btn btn-brand col-12 col-md-6 col-lg-4">Get Started</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+    </script>
+</html>
